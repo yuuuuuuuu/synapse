@@ -1,0 +1,26 @@
+{
+	"name": "relationship-prdxjdlvna",
+	"properties": {
+		"Name": "relationship-prdxjdlvna",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "SourceDocumentInputType",
+		"ToTableName": "SourceDocument",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "SourceDocumentInputTypeId",
+				"ToColumnName": "SourceDocumentInputTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"SourceDocumentInputType.cdm.json/SourceDocumentInputType\",\"toEntity\":\"SourceDocument.cdm.json/SourceDocument\",\"joinPairs\":[{\"fromAttribute\":\"SourceDocumentInputTypeId\",\"toAttribute\":\"SourceDocumentInputTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

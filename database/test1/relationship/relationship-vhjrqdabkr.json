@@ -1,0 +1,26 @@
+{
+	"name": "relationship-vhjrqdabkr",
+	"properties": {
+		"Name": "relationship-vhjrqdabkr",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Currency",
+		"ToTableName": "IsoCurrencyConversion",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "IsoCurrencyCode",
+				"ToColumnName": "ConvertToIsoCurrencyCode"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Currency.cdm.json/Currency\",\"toEntity\":\"IsoCurrencyConversion.cdm.json/IsoCurrencyConversion\",\"joinPairs\":[{\"fromAttribute\":\"IsoCurrencyCode\",\"toAttribute\":\"ConvertToIsoCurrencyCode\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

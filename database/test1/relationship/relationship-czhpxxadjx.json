@@ -1,0 +1,26 @@
+{
+	"name": "relationship-czhpxxadjx",
+	"properties": {
+		"Name": "relationship-czhpxxadjx",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "BalanceSheet",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodEndDate",
+				"ToColumnName": "PeriodEndDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"BalanceSheet.cdm.json/BalanceSheet\",\"joinPairs\":[{\"fromAttribute\":\"PeriodEndDate\",\"toAttribute\":\"PeriodEndDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

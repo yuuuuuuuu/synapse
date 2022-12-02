@@ -1,0 +1,26 @@
+{
+	"name": "relationship-slridjvodw",
+	"properties": {
+		"Name": "relationship-slridjvodw",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatementLine",
+		"ToTableName": "FinancialStatementLineNoteCrossReference",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LegalEntityId",
+				"ToColumnName": "LegalEntityId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatementLine.cdm.json/FinancialStatementLine\",\"toEntity\":\"FinancialStatementLineNoteCrossReference.cdm.json/FinancialStatementLineNoteCrossReference\",\"joinPairs\":[{\"fromAttribute\":\"LegalEntityId\",\"toAttribute\":\"LegalEntityId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

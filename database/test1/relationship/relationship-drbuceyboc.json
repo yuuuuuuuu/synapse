@@ -1,0 +1,26 @@
+{
+	"name": "relationship-drbuceyboc",
+	"properties": {
+		"Name": "relationship-drbuceyboc",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccount",
+		"ToTableName": "LedgerAccountBalance",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerAccountNumber",
+				"ToColumnName": "LedgerAccountNumber"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccount.cdm.json/LedgerAccount\",\"toEntity\":\"LedgerAccountBalance.cdm.json/LedgerAccountBalance\",\"joinPairs\":[{\"fromAttribute\":\"LedgerAccountNumber\",\"toAttribute\":\"LedgerAccountNumber\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

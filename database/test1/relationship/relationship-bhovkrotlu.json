@@ -1,0 +1,26 @@
+{
+	"name": "relationship-bhovkrotlu",
+	"properties": {
+		"Name": "relationship-bhovkrotlu",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "IncomeStatement",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodStartDate",
+				"ToColumnName": "PeriodStartDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"IncomeStatement.cdm.json/IncomeStatement\",\"joinPairs\":[{\"fromAttribute\":\"PeriodStartDate\",\"toAttribute\":\"PeriodStartDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

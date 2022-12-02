@@ -1,0 +1,26 @@
+{
+	"name": "relationship-ggevjapnys",
+	"properties": {
+		"Name": "relationship-ggevjapnys",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "StatementOfAccumulatedComprehensiveIncomeAndHedgingActivities",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodEndDate",
+				"ToColumnName": "PeriodEndDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"StatementOfAccumulatedComprehensiveIncomeAndHedgingActivities.cdm.json/StatementOfAccumulatedComprehensiveIncomeAndHedgingActivities\",\"joinPairs\":[{\"fromAttribute\":\"PeriodEndDate\",\"toAttribute\":\"PeriodEndDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

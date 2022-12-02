@@ -1,0 +1,26 @@
+{
+	"name": "relationship-mseuylayrv",
+	"properties": {
+		"Name": "relationship-mseuylayrv",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "StatementOfAccumulatedComprehensiveIncomeAndHedgingActivities",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "FinancialStatementId",
+				"ToColumnName": "FinancialStatementId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"StatementOfAccumulatedComprehensiveIncomeAndHedgingActivities.cdm.json/StatementOfAccumulatedComprehensiveIncomeAndHedgingActivities\",\"joinPairs\":[{\"fromAttribute\":\"FinancialStatementId\",\"toAttribute\":\"FinancialStatementId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

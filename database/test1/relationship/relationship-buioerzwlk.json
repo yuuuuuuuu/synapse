@@ -1,0 +1,26 @@
+{
+	"name": "relationship-buioerzwlk",
+	"properties": {
+		"Name": "relationship-buioerzwlk",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "StatementOfCashFlows",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodEndDate",
+				"ToColumnName": "PeriodEndDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"StatementOfCashFlows.cdm.json/StatementOfCashFlows\",\"joinPairs\":[{\"fromAttribute\":\"PeriodEndDate\",\"toAttribute\":\"PeriodEndDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

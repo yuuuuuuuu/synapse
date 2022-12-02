@@ -1,0 +1,26 @@
+{
+	"name": "relationship-fslvgutrwf",
+	"properties": {
+		"Name": "relationship-fslvgutrwf",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "JournalAdjustingEntryType",
+		"ToTableName": "JournalEntry",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "JournalAdjustingEntryTypeId",
+				"ToColumnName": "JournalAdjustingEntryTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"JournalAdjustingEntryType.cdm.json/JournalAdjustingEntryType\",\"toEntity\":\"JournalEntry.cdm.json/JournalEntry\",\"joinPairs\":[{\"fromAttribute\":\"JournalAdjustingEntryTypeId\",\"toAttribute\":\"JournalAdjustingEntryTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

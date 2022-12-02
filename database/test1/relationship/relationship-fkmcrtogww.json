@@ -1,0 +1,26 @@
+{
+	"name": "relationship-fkmcrtogww",
+	"properties": {
+		"Name": "relationship-fkmcrtogww",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatementRelationshipType",
+		"ToTableName": "RelatedFinancialStatement",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "FinancialStatementRelationshipTypeId",
+				"ToColumnName": "FinancialStatementRelationshipTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatementRelationshipType.cdm.json/FinancialStatementRelationshipType\",\"toEntity\":\"RelatedFinancialStatement.cdm.json/RelatedFinancialStatement\",\"joinPairs\":[{\"fromAttribute\":\"FinancialStatementRelationshipTypeId\",\"toAttribute\":\"FinancialStatementRelationshipTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

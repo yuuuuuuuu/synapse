@@ -1,0 +1,26 @@
+{
+	"name": "relationship-zpstfnnbna",
+	"properties": {
+		"Name": "relationship-zpstfnnbna",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "StatementOfComprehensiveIncome",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodEndDate",
+				"ToColumnName": "PeriodEndDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"StatementOfComprehensiveIncome.cdm.json/StatementOfComprehensiveIncome\",\"joinPairs\":[{\"fromAttribute\":\"PeriodEndDate\",\"toAttribute\":\"PeriodEndDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

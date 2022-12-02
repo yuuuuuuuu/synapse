@@ -1,0 +1,26 @@
+{
+	"name": "relationship-wjquzkrkmz",
+	"properties": {
+		"Name": "relationship-wjquzkrkmz",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "ResponsibilityCenter",
+		"ToTableName": "LedgerAccount",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ResponsibilityCenterId",
+				"ToColumnName": "ResponsibilityCenterId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"ResponsibilityCenter.cdm.json/ResponsibilityCenter\",\"toEntity\":\"LedgerAccount.cdm.json/LedgerAccount\",\"joinPairs\":[{\"fromAttribute\":\"ResponsibilityCenterId\",\"toAttribute\":\"ResponsibilityCenterId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

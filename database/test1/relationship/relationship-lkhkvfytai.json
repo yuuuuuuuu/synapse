@@ -1,0 +1,26 @@
+{
+	"name": "relationship-lkhkvfytai",
+	"properties": {
+		"Name": "relationship-lkhkvfytai",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "AccountingFramework",
+		"ToTableName": "Ledger",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "AccountingFrameworkId",
+				"ToColumnName": "AccountingFrameworkId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"AccountingFramework.cdm.json/AccountingFramework\",\"toEntity\":\"Ledger.cdm.json/Ledger\",\"joinPairs\":[{\"fromAttribute\":\"AccountingFrameworkId\",\"toAttribute\":\"AccountingFrameworkId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

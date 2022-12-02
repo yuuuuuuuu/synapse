@@ -1,0 +1,26 @@
+{
+	"name": "relationship-tdabackavs",
+	"properties": {
+		"Name": "relationship-tdabackavs",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LineOfCredit",
+		"ToTableName": "LineOfCreditDraw",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LegalEntityId",
+				"ToColumnName": "LegalEntityId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LineOfCredit.cdm.json/LineOfCredit\",\"toEntity\":\"LineOfCreditDraw.cdm.json/LineOfCreditDraw\",\"joinPairs\":[{\"fromAttribute\":\"LegalEntityId\",\"toAttribute\":\"LegalEntityId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

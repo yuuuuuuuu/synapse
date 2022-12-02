@@ -1,0 +1,26 @@
+{
+	"name": "relationship-cyasauwaix",
+	"properties": {
+		"Name": "relationship-cyasauwaix",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "StatementOfComprehensiveIncome",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LegalEntityId",
+				"ToColumnName": "LegalEntityId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"StatementOfComprehensiveIncome.cdm.json/StatementOfComprehensiveIncome\",\"joinPairs\":[{\"fromAttribute\":\"LegalEntityId\",\"toAttribute\":\"LegalEntityId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

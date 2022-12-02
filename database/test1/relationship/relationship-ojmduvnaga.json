@@ -1,0 +1,26 @@
+{
+	"name": "relationship-ojmduvnaga",
+	"properties": {
+		"Name": "relationship-ojmduvnaga",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "JournalEntryRelationshipType",
+		"ToTableName": "RelatedJournalEntry",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "JournalEntryRelationshipTypeId",
+				"ToColumnName": "JournalEntryRelationshipTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"JournalEntryRelationshipType.cdm.json/JournalEntryRelationshipType\",\"toEntity\":\"RelatedJournalEntry.cdm.json/RelatedJournalEntry\",\"joinPairs\":[{\"fromAttribute\":\"JournalEntryRelationshipTypeId\",\"toAttribute\":\"JournalEntryRelationshipTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

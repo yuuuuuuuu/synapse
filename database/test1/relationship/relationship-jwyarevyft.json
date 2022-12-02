@@ -1,0 +1,26 @@
+{
+	"name": "relationship-jwyarevyft",
+	"properties": {
+		"Name": "relationship-jwyarevyft",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "RelatedFinancialStatement",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LegalEntityId",
+				"ToColumnName": "RelatedLegalEntityId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"RelatedFinancialStatement.cdm.json/RelatedFinancialStatement\",\"joinPairs\":[{\"fromAttribute\":\"LegalEntityId\",\"toAttribute\":\"RelatedLegalEntityId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

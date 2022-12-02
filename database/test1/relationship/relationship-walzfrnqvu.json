@@ -1,0 +1,26 @@
+{
+	"name": "relationship-walzfrnqvu",
+	"properties": {
+		"Name": "relationship-walzfrnqvu",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "JournalEntry",
+		"ToTableName": "JournalEntryLineItem",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "JournalId",
+				"ToColumnName": "JournalId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"JournalEntry.cdm.json/JournalEntry\",\"toEntity\":\"JournalEntryLineItem.cdm.json/JournalEntryLineItem\",\"joinPairs\":[{\"fromAttribute\":\"JournalId\",\"toAttribute\":\"JournalId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

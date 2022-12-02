@@ -1,0 +1,26 @@
+{
+	"name": "relationship-xfojjbojmg",
+	"properties": {
+		"Name": "relationship-xfojjbojmg",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "SourceDocument",
+		"ToTableName": "JournalTransaction",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "SourceDocumentId",
+				"ToColumnName": "SourceDocumentId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"SourceDocument.cdm.json/SourceDocument\",\"toEntity\":\"JournalTransaction.cdm.json/JournalTransaction\",\"joinPairs\":[{\"fromAttribute\":\"SourceDocumentId\",\"toAttribute\":\"SourceDocumentId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

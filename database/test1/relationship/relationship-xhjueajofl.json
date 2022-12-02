@@ -1,0 +1,26 @@
+{
+	"name": "relationship-xhjueajofl",
+	"properties": {
+		"Name": "relationship-xhjueajofl",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "AccountingFrameworkStandard",
+		"ToTableName": "AccountingPolicy",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "AccountingFrameworkId",
+				"ToColumnName": "AccountingFrameworkId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"AccountingFrameworkStandard.cdm.json/AccountingFrameworkStandard\",\"toEntity\":\"AccountingPolicy.cdm.json/AccountingPolicy\",\"joinPairs\":[{\"fromAttribute\":\"AccountingFrameworkId\",\"toAttribute\":\"AccountingFrameworkId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "relationship-qbgbpcfanl",
+	"properties": {
+		"Name": "relationship-qbgbpcfanl",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "StatementOfChangesInEquity",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "FinancialStatementId",
+				"ToColumnName": "FinancialStatementId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"StatementOfChangesInEquity.cdm.json/StatementOfChangesInEquity\",\"joinPairs\":[{\"fromAttribute\":\"FinancialStatementId\",\"toAttribute\":\"FinancialStatementId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

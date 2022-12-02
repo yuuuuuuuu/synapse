@@ -1,0 +1,26 @@
+{
+	"name": "relationship-wdjyfqnspz",
+	"properties": {
+		"Name": "relationship-wdjyfqnspz",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "NotesToFinancialStatements",
+		"ToTableName": "FinancialStatementLineNoteCrossReference",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodStartDate",
+				"ToColumnName": "PeriodStartDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"NotesToFinancialStatements.cdm.json/NotesToFinancialStatements\",\"toEntity\":\"FinancialStatementLineNoteCrossReference.cdm.json/FinancialStatementLineNoteCrossReference\",\"joinPairs\":[{\"fromAttribute\":\"PeriodStartDate\",\"toAttribute\":\"PeriodStartDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

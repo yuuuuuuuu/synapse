@@ -1,0 +1,26 @@
+{
+	"name": "relationship-myqydcgdbd",
+	"properties": {
+		"Name": "relationship-myqydcgdbd",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatementDurationType",
+		"ToTableName": "SetOfFinancialStatements",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "FinancialStatementDurationTypeId",
+				"ToColumnName": "FinancialStatementDurationTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatementDurationType.cdm.json/FinancialStatementDurationType\",\"toEntity\":\"SetOfFinancialStatements.cdm.json/SetOfFinancialStatements\",\"joinPairs\":[{\"fromAttribute\":\"FinancialStatementDurationTypeId\",\"toAttribute\":\"FinancialStatementDurationTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

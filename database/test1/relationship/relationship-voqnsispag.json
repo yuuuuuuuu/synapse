@@ -1,0 +1,26 @@
+{
+	"name": "relationship-voqnsispag",
+	"properties": {
+		"Name": "relationship-voqnsispag",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatementType",
+		"ToTableName": "FinancialStatement",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "FinancialStatementTypeId",
+				"ToColumnName": "FinancialStatementTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatementType.cdm.json/FinancialStatementType\",\"toEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"joinPairs\":[{\"fromAttribute\":\"FinancialStatementTypeId\",\"toAttribute\":\"FinancialStatementTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

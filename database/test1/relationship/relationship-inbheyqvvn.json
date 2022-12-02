@@ -1,0 +1,26 @@
+{
+	"name": "relationship-inbheyqvvn",
+	"properties": {
+		"Name": "relationship-inbheyqvvn",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccountBalance",
+		"ToTableName": "RelatedLedgerAccountBalance",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerId",
+				"ToColumnName": "LedgerId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccountBalance.cdm.json/LedgerAccountBalance\",\"toEntity\":\"RelatedLedgerAccountBalance.cdm.json/RelatedLedgerAccountBalance\",\"joinPairs\":[{\"fromAttribute\":\"LedgerId\",\"toAttribute\":\"LedgerId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

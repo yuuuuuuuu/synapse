@@ -1,0 +1,26 @@
+{
+	"name": "relationship-tmihywldbg",
+	"properties": {
+		"Name": "relationship-tmihywldbg",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "StatementOfComprehensiveIncome",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "FinancialStatementId",
+				"ToColumnName": "FinancialStatementId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"StatementOfComprehensiveIncome.cdm.json/StatementOfComprehensiveIncome\",\"joinPairs\":[{\"fromAttribute\":\"FinancialStatementId\",\"toAttribute\":\"FinancialStatementId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

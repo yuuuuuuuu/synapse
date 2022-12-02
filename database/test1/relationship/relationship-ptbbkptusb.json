@@ -1,0 +1,26 @@
+{
+	"name": "relationship-ptbbkptusb",
+	"properties": {
+		"Name": "relationship-ptbbkptusb",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatementLine",
+		"ToTableName": "FinancialStatementLineAggregatedLedgerAccount",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodStartDate",
+				"ToColumnName": "PeriodStartDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatementLine.cdm.json/FinancialStatementLine\",\"toEntity\":\"FinancialStatementLineAggregatedLedgerAccount.cdm.json/FinancialStatementLineAggregatedLedgerAccount\",\"joinPairs\":[{\"fromAttribute\":\"PeriodStartDate\",\"toAttribute\":\"PeriodStartDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

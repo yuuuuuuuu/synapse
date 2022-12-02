@@ -1,0 +1,26 @@
+{
+	"name": "relationship-mbicndjydu",
+	"properties": {
+		"Name": "relationship-mbicndjydu",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "AccountingFramework",
+		"ToTableName": "FinancialStatementType",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "AccountingFrameworkId",
+				"ToColumnName": "AccountingFrameworkId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"AccountingFramework.cdm.json/AccountingFramework\",\"toEntity\":\"FinancialStatementType.cdm.json/FinancialStatementType\",\"joinPairs\":[{\"fromAttribute\":\"AccountingFrameworkId\",\"toAttribute\":\"AccountingFrameworkId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

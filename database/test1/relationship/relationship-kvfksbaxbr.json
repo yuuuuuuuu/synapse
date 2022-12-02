@@ -1,0 +1,26 @@
+{
+	"name": "relationship-kvfksbaxbr",
+	"properties": {
+		"Name": "relationship-kvfksbaxbr",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "JournalEntry",
+		"ToTableName": "RelatedJournalEntry",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "JournalId",
+				"ToColumnName": "RelatedJournalId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"JournalEntry.cdm.json/JournalEntry\",\"toEntity\":\"RelatedJournalEntry.cdm.json/RelatedJournalEntry\",\"joinPairs\":[{\"fromAttribute\":\"JournalId\",\"toAttribute\":\"RelatedJournalId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

@@ -1,0 +1,23 @@
+{
+	"name": "test1",
+	"properties": {
+		"Name": "test1",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true,
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"Banking\",\"Version\":\"0.1.0\"}}}"
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://fsadrmexplore@dlsg2adrmexplore.dfs.core.windows.net/test1",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "adrmexplore-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}

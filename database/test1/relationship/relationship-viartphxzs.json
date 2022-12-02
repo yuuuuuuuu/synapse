@@ -1,0 +1,26 @@
+{
+	"name": "relationship-viartphxzs",
+	"properties": {
+		"Name": "relationship-viartphxzs",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "ResponsibilityCenterType",
+		"ToTableName": "ResponsibilityCenter",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ResponsibilityCenterTypeId",
+				"ToColumnName": "ResponsibilityCenterTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"ResponsibilityCenterType.cdm.json/ResponsibilityCenterType\",\"toEntity\":\"ResponsibilityCenter.cdm.json/ResponsibilityCenter\",\"joinPairs\":[{\"fromAttribute\":\"ResponsibilityCenterTypeId\",\"toAttribute\":\"ResponsibilityCenterTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

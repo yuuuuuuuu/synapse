@@ -1,0 +1,26 @@
+{
+	"name": "relationship-jpivcctgtb",
+	"properties": {
+		"Name": "relationship-jpivcctgtb",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LevelOfPrecision",
+		"ToTableName": "FinancialStatementColumn",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LevelOfPrecisionId",
+				"ToColumnName": "LevelOfPrecisionId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LevelOfPrecision.cdm.json/LevelOfPrecision\",\"toEntity\":\"FinancialStatementColumn.cdm.json/FinancialStatementColumn\",\"joinPairs\":[{\"fromAttribute\":\"LevelOfPrecisionId\",\"toAttribute\":\"LevelOfPrecisionId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

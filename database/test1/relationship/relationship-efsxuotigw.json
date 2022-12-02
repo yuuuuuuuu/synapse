@@ -1,0 +1,26 @@
+{
+	"name": "relationship-efsxuotigw",
+	"properties": {
+		"Name": "relationship-efsxuotigw",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "ResponsibilityCenter",
+		"ToTableName": "JournalEntry",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ResponsibilityCenterId",
+				"ToColumnName": "ResponsibilityCenterId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"ResponsibilityCenter.cdm.json/ResponsibilityCenter\",\"toEntity\":\"JournalEntry.cdm.json/JournalEntry\",\"joinPairs\":[{\"fromAttribute\":\"ResponsibilityCenterId\",\"toAttribute\":\"ResponsibilityCenterId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

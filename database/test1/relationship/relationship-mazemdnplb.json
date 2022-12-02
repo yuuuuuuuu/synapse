@@ -1,0 +1,26 @@
+{
+	"name": "relationship-mazemdnplb",
+	"properties": {
+		"Name": "relationship-mazemdnplb",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatement",
+		"ToTableName": "StatementOfFinancialPosition",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "FinancialStatementId",
+				"ToColumnName": "FinancialStatementId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"toEntity\":\"StatementOfFinancialPosition.cdm.json/StatementOfFinancialPosition\",\"joinPairs\":[{\"fromAttribute\":\"FinancialStatementId\",\"toAttribute\":\"FinancialStatementId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

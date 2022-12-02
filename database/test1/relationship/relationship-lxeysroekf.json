@@ -1,0 +1,26 @@
+{
+	"name": "relationship-lxeysroekf",
+	"properties": {
+		"Name": "relationship-lxeysroekf",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatementLine",
+		"ToTableName": "FinancialStatementLineNoteCrossReference",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodEndDate",
+				"ToColumnName": "PeriodEndDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatementLine.cdm.json/FinancialStatementLine\",\"toEntity\":\"FinancialStatementLineNoteCrossReference.cdm.json/FinancialStatementLineNoteCrossReference\",\"joinPairs\":[{\"fromAttribute\":\"PeriodEndDate\",\"toAttribute\":\"PeriodEndDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

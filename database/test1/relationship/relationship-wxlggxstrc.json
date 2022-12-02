@@ -1,0 +1,26 @@
+{
+	"name": "relationship-wxlggxstrc",
+	"properties": {
+		"Name": "relationship-wxlggxstrc",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccount",
+		"ToTableName": "JournalEntryLineItem",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerAccountNumber",
+				"ToColumnName": "LedgerAccountNumber"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccount.cdm.json/LedgerAccount\",\"toEntity\":\"JournalEntryLineItem.cdm.json/JournalEntryLineItem\",\"joinPairs\":[{\"fromAttribute\":\"LedgerAccountNumber\",\"toAttribute\":\"LedgerAccountNumber\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

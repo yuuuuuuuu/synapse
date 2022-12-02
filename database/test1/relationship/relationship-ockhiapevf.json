@@ -1,0 +1,26 @@
+{
+	"name": "relationship-ockhiapevf",
+	"properties": {
+		"Name": "relationship-ockhiapevf",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccount",
+		"ToTableName": "RelatedLedger",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerAccountNumber",
+				"ToColumnName": "LedgerAccountNumber"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccount.cdm.json/LedgerAccount\",\"toEntity\":\"RelatedLedger.cdm.json/RelatedLedger\",\"joinPairs\":[{\"fromAttribute\":\"LedgerAccountNumber\",\"toAttribute\":\"LedgerAccountNumber\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

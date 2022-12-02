@@ -1,0 +1,26 @@
+{
+	"name": "relationship-hgpgpkwdko",
+	"properties": {
+		"Name": "relationship-hgpgpkwdko",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "AccountingFrameworkStandard",
+		"ToTableName": "AccountingPolicy",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "AccountingFrameworkStandardId",
+				"ToColumnName": "AccountingFrameworkStandardId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"AccountingFrameworkStandard.cdm.json/AccountingFrameworkStandard\",\"toEntity\":\"AccountingPolicy.cdm.json/AccountingPolicy\",\"joinPairs\":[{\"fromAttribute\":\"AccountingFrameworkStandardId\",\"toAttribute\":\"AccountingFrameworkStandardId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

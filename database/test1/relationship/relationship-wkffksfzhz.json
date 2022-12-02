@@ -1,0 +1,26 @@
+{
+	"name": "relationship-wkffksfzhz",
+	"properties": {
+		"Name": "relationship-wkffksfzhz",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "JournalType",
+		"ToTableName": "Journal",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "JournalTypeId",
+				"ToColumnName": "JournalTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"JournalType.cdm.json/JournalType\",\"toEntity\":\"Journal.cdm.json/Journal\",\"joinPairs\":[{\"fromAttribute\":\"JournalTypeId\",\"toAttribute\":\"JournalTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "relationship-sttkajxrdr",
+	"properties": {
+		"Name": "relationship-sttkajxrdr",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccount",
+		"ToTableName": "RelatedLedgerAccount",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerId",
+				"ToColumnName": "RelatedLedgerId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccount.cdm.json/LedgerAccount\",\"toEntity\":\"RelatedLedgerAccount.cdm.json/RelatedLedgerAccount\",\"joinPairs\":[{\"fromAttribute\":\"LedgerId\",\"toAttribute\":\"RelatedLedgerId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

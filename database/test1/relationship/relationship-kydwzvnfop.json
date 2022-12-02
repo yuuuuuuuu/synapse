@@ -1,0 +1,26 @@
+{
+	"name": "relationship-kydwzvnfop",
+	"properties": {
+		"Name": "relationship-kydwzvnfop",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "TaxBasis",
+		"ToTableName": "LegalEntityAccountingPolicy",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "TaxBasisId",
+				"ToColumnName": "TaxBasisId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"TaxBasis.cdm.json/TaxBasis\",\"toEntity\":\"LegalEntityAccountingPolicy.cdm.json/LegalEntityAccountingPolicy\",\"joinPairs\":[{\"fromAttribute\":\"TaxBasisId\",\"toAttribute\":\"TaxBasisId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

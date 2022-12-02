@@ -1,0 +1,26 @@
+{
+	"name": "relationship-srnvpxyrqo",
+	"properties": {
+		"Name": "relationship-srnvpxyrqo",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatementLine",
+		"ToTableName": "FinancialStatementValue",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "FinancialStatementId",
+				"ToColumnName": "FinancialStatementId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatementLine.cdm.json/FinancialStatementLine\",\"toEntity\":\"FinancialStatementValue.cdm.json/FinancialStatementValue\",\"joinPairs\":[{\"fromAttribute\":\"FinancialStatementId\",\"toAttribute\":\"FinancialStatementId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

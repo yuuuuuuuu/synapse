@@ -1,0 +1,26 @@
+{
+	"name": "relationship-pggxmfnbte",
+	"properties": {
+		"Name": "relationship-pggxmfnbte",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "JournalEntry",
+		"ToTableName": "RelatedJournalEntry",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "JournalId",
+				"ToColumnName": "JournalId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"JournalEntry.cdm.json/JournalEntry\",\"toEntity\":\"RelatedJournalEntry.cdm.json/RelatedJournalEntry\",\"joinPairs\":[{\"fromAttribute\":\"JournalId\",\"toAttribute\":\"JournalId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

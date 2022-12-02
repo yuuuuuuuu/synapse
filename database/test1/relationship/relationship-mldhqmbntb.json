@@ -1,0 +1,26 @@
+{
+	"name": "relationship-mldhqmbntb",
+	"properties": {
+		"Name": "relationship-mldhqmbntb",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "SetOfFinancialStatements",
+		"ToTableName": "FinancialStatement",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LegalEntityId",
+				"ToColumnName": "LegalEntityId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"SetOfFinancialStatements.cdm.json/SetOfFinancialStatements\",\"toEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"joinPairs\":[{\"fromAttribute\":\"LegalEntityId\",\"toAttribute\":\"LegalEntityId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

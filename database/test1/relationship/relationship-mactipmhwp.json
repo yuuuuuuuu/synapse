@@ -1,0 +1,26 @@
+{
+	"name": "relationship-mactipmhwp",
+	"properties": {
+		"Name": "relationship-mactipmhwp",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "InventoryValuationMethod",
+		"ToTableName": "LegalEntityAccountingPolicy",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "InventoryValuationMethodId",
+				"ToColumnName": "InventoryValuationMethodId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"InventoryValuationMethod.cdm.json/InventoryValuationMethod\",\"toEntity\":\"LegalEntityAccountingPolicy.cdm.json/LegalEntityAccountingPolicy\",\"joinPairs\":[{\"fromAttribute\":\"InventoryValuationMethodId\",\"toAttribute\":\"InventoryValuationMethodId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

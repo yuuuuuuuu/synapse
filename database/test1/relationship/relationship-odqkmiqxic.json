@@ -1,0 +1,26 @@
+{
+	"name": "relationship-odqkmiqxic",
+	"properties": {
+		"Name": "relationship-odqkmiqxic",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "JournalEntry",
+		"ToTableName": "JournalEntryLineItem",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "JournalEntryId",
+				"ToColumnName": "JournalEntryId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"JournalEntry.cdm.json/JournalEntry\",\"toEntity\":\"JournalEntryLineItem.cdm.json/JournalEntryLineItem\",\"joinPairs\":[{\"fromAttribute\":\"JournalEntryId\",\"toAttribute\":\"JournalEntryId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

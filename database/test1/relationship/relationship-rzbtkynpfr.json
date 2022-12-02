@@ -1,0 +1,26 @@
+{
+	"name": "relationship-rzbtkynpfr",
+	"properties": {
+		"Name": "relationship-rzbtkynpfr",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Journal",
+		"ToTableName": "JournalEntry",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "JournalId",
+				"ToColumnName": "JournalId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Journal.cdm.json/Journal\",\"toEntity\":\"JournalEntry.cdm.json/JournalEntry\",\"joinPairs\":[{\"fromAttribute\":\"JournalId\",\"toAttribute\":\"JournalId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

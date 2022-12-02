@@ -1,0 +1,26 @@
+{
+	"name": "relationship-ecjxnelgxy",
+	"properties": {
+		"Name": "relationship-ecjxnelgxy",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "BadDebtWriteOff",
+		"ToTableName": "WriteOffRelatedTransaction",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LegalEntityId",
+				"ToColumnName": "LegalEntityId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"BadDebtWriteOff.cdm.json/BadDebtWriteOff\",\"toEntity\":\"WriteOffRelatedTransaction.cdm.json/WriteOffRelatedTransaction\",\"joinPairs\":[{\"fromAttribute\":\"LegalEntityId\",\"toAttribute\":\"LegalEntityId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "relationship-fpqpepaqwt",
+	"properties": {
+		"Name": "relationship-fpqpepaqwt",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccount",
+		"ToTableName": "RelatedLedgerAccount",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerAccountNumber",
+				"ToColumnName": "RelatedLedgerAccountNumber"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccount.cdm.json/LedgerAccount\",\"toEntity\":\"RelatedLedgerAccount.cdm.json/RelatedLedgerAccount\",\"joinPairs\":[{\"fromAttribute\":\"LedgerAccountNumber\",\"toAttribute\":\"RelatedLedgerAccountNumber\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

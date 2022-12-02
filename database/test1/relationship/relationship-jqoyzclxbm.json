@@ -1,0 +1,26 @@
+{
+	"name": "relationship-jqoyzclxbm",
+	"properties": {
+		"Name": "relationship-jqoyzclxbm",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatementLine",
+		"ToTableName": "FinancialStatementValue",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LegalEntityId",
+				"ToColumnName": "LegalEntityId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatementLine.cdm.json/FinancialStatementLine\",\"toEntity\":\"FinancialStatementValue.cdm.json/FinancialStatementValue\",\"joinPairs\":[{\"fromAttribute\":\"LegalEntityId\",\"toAttribute\":\"LegalEntityId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

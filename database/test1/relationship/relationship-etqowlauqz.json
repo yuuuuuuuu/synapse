@@ -1,0 +1,26 @@
+{
+	"name": "relationship-etqowlauqz",
+	"properties": {
+		"Name": "relationship-etqowlauqz",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "SetOfFinancialStatements",
+		"ToTableName": "FinancialStatement",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodStartDate",
+				"ToColumnName": "PeriodStartDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"SetOfFinancialStatements.cdm.json/SetOfFinancialStatements\",\"toEntity\":\"FinancialStatement.cdm.json/FinancialStatement\",\"joinPairs\":[{\"fromAttribute\":\"PeriodStartDate\",\"toAttribute\":\"PeriodStartDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

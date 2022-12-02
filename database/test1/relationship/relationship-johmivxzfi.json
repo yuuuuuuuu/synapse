@@ -1,0 +1,26 @@
+{
+	"name": "relationship-johmivxzfi",
+	"properties": {
+		"Name": "relationship-johmivxzfi",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccountRelationshipType",
+		"ToTableName": "RelatedLedgerAccount",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerAccountRelationshipTypeId",
+				"ToColumnName": "LedgerAccountRelationshipTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccountRelationshipType.cdm.json/LedgerAccountRelationshipType\",\"toEntity\":\"RelatedLedgerAccount.cdm.json/RelatedLedgerAccount\",\"joinPairs\":[{\"fromAttribute\":\"LedgerAccountRelationshipTypeId\",\"toAttribute\":\"LedgerAccountRelationshipTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

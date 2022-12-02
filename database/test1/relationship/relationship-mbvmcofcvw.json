@@ -1,0 +1,26 @@
+{
+	"name": "relationship-mbvmcofcvw",
+	"properties": {
+		"Name": "relationship-mbvmcofcvw",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "NotesToFinancialStatements",
+		"ToTableName": "FinancialStatementLineNoteCrossReference",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LegalEntityId",
+				"ToColumnName": "LegalEntityId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"NotesToFinancialStatements.cdm.json/NotesToFinancialStatements\",\"toEntity\":\"FinancialStatementLineNoteCrossReference.cdm.json/FinancialStatementLineNoteCrossReference\",\"joinPairs\":[{\"fromAttribute\":\"LegalEntityId\",\"toAttribute\":\"LegalEntityId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

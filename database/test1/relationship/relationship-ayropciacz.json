@@ -1,0 +1,26 @@
+{
+	"name": "relationship-ayropciacz",
+	"properties": {
+		"Name": "relationship-ayropciacz",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "SetOfFinancialStatements",
+		"ToTableName": "AuditorReport",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodStartDate",
+				"ToColumnName": "PeriodStartDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"SetOfFinancialStatements.cdm.json/SetOfFinancialStatements\",\"toEntity\":\"AuditorReport.cdm.json/AuditorReport\",\"joinPairs\":[{\"fromAttribute\":\"PeriodStartDate\",\"toAttribute\":\"PeriodStartDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

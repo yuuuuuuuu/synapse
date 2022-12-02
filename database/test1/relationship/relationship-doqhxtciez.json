@@ -1,0 +1,26 @@
+{
+	"name": "relationship-doqhxtciez",
+	"properties": {
+		"Name": "relationship-doqhxtciez",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccountType",
+		"ToTableName": "LedgerAccount",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerAccountTypeId",
+				"ToColumnName": "LedgerAccountTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccountType.cdm.json/LedgerAccountType\",\"toEntity\":\"LedgerAccount.cdm.json/LedgerAccount\",\"joinPairs\":[{\"fromAttribute\":\"LedgerAccountTypeId\",\"toAttribute\":\"LedgerAccountTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

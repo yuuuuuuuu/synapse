@@ -1,0 +1,26 @@
+{
+	"name": "relationship-ngdwshtjei",
+	"properties": {
+		"Name": "relationship-ngdwshtjei",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccount",
+		"ToTableName": "RelatedLedgerAccount",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerAccountNumber",
+				"ToColumnName": "LedgerAccountNumber"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccount.cdm.json/LedgerAccount\",\"toEntity\":\"RelatedLedgerAccount.cdm.json/RelatedLedgerAccount\",\"joinPairs\":[{\"fromAttribute\":\"LedgerAccountNumber\",\"toAttribute\":\"LedgerAccountNumber\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

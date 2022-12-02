@@ -1,0 +1,26 @@
+{
+	"name": "relationship-psqrhzmtnn",
+	"properties": {
+		"Name": "relationship-psqrhzmtnn",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccountBalance",
+		"ToTableName": "RelatedLedgerAccountBalance",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "Timestamp",
+				"ToColumnName": "RelatedTimestamp"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccountBalance.cdm.json/LedgerAccountBalance\",\"toEntity\":\"RelatedLedgerAccountBalance.cdm.json/RelatedLedgerAccountBalance\",\"joinPairs\":[{\"fromAttribute\":\"Timestamp\",\"toAttribute\":\"RelatedTimestamp\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

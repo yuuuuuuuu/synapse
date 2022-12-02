@@ -1,0 +1,26 @@
+{
+	"name": "relationship-ktchuzhctg",
+	"properties": {
+		"Name": "relationship-ktchuzhctg",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccountBalance",
+		"ToTableName": "RelatedLedgerAccountBalance",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerId",
+				"ToColumnName": "RelatedLedgerId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccountBalance.cdm.json/LedgerAccountBalance\",\"toEntity\":\"RelatedLedgerAccountBalance.cdm.json/RelatedLedgerAccountBalance\",\"joinPairs\":[{\"fromAttribute\":\"LedgerId\",\"toAttribute\":\"RelatedLedgerId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

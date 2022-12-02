@@ -1,0 +1,26 @@
+{
+	"name": "relationship-eorqyyemmi",
+	"properties": {
+		"Name": "relationship-eorqyyemmi",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "JournalTransaction",
+		"ToTableName": "WriteOffRelatedTransaction",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "TransactionId",
+				"ToColumnName": "TransactionId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"JournalTransaction.cdm.json/JournalTransaction\",\"toEntity\":\"WriteOffRelatedTransaction.cdm.json/WriteOffRelatedTransaction\",\"joinPairs\":[{\"fromAttribute\":\"TransactionId\",\"toAttribute\":\"TransactionId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

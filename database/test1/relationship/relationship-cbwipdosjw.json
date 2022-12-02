@@ -1,0 +1,26 @@
+{
+	"name": "relationship-cbwipdosjw",
+	"properties": {
+		"Name": "relationship-cbwipdosjw",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "SetOfFinancialStatements",
+		"ToTableName": "RelatedSetOfFinancialStatements",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodEndDate",
+				"ToColumnName": "RelatedPeriodEndDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"SetOfFinancialStatements.cdm.json/SetOfFinancialStatements\",\"toEntity\":\"RelatedSetOfFinancialStatements.cdm.json/RelatedSetOfFinancialStatements\",\"joinPairs\":[{\"fromAttribute\":\"PeriodEndDate\",\"toAttribute\":\"RelatedPeriodEndDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "relationship-vwuadbsjwi",
+	"properties": {
+		"Name": "relationship-vwuadbsjwi",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerType",
+		"ToTableName": "Ledger",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerTypeId",
+				"ToColumnName": "LedgerTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerType.cdm.json/LedgerType\",\"toEntity\":\"Ledger.cdm.json/Ledger\",\"joinPairs\":[{\"fromAttribute\":\"LedgerTypeId\",\"toAttribute\":\"LedgerTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

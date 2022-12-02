@@ -1,0 +1,26 @@
+{
+	"name": "relationship-vxdaqmcnyy",
+	"properties": {
+		"Name": "relationship-vxdaqmcnyy",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Ledger",
+		"ToTableName": "LedgerAccount",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerId",
+				"ToColumnName": "LedgerId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Ledger.cdm.json/Ledger\",\"toEntity\":\"LedgerAccount.cdm.json/LedgerAccount\",\"joinPairs\":[{\"fromAttribute\":\"LedgerId\",\"toAttribute\":\"LedgerId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

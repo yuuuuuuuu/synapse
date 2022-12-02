@@ -1,0 +1,26 @@
+{
+	"name": "relationship-yssdjgjqlg",
+	"properties": {
+		"Name": "relationship-yssdjgjqlg",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "AccountingBasis",
+		"ToTableName": "LegalEntityAccountingPeriodAccountingBasis",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "AccountingBasisId",
+				"ToColumnName": "AccountingBasisId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"AccountingBasis.cdm.json/AccountingBasis\",\"toEntity\":\"LegalEntityAccountingPeriodAccountingBasis.cdm.json/LegalEntityAccountingPeriodAccountingBasis\",\"joinPairs\":[{\"fromAttribute\":\"AccountingBasisId\",\"toAttribute\":\"AccountingBasisId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

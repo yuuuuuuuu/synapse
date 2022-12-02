@@ -1,0 +1,26 @@
+{
+	"name": "relationship-fwjxlhtiki",
+	"properties": {
+		"Name": "relationship-fwjxlhtiki",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LedgerAccountBalance",
+		"ToTableName": "RelatedLedgerAccountBalance",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LedgerAccountNumber",
+				"ToColumnName": "LedgerAccountNumber"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LedgerAccountBalance.cdm.json/LedgerAccountBalance\",\"toEntity\":\"RelatedLedgerAccountBalance.cdm.json/RelatedLedgerAccountBalance\",\"joinPairs\":[{\"fromAttribute\":\"LedgerAccountNumber\",\"toAttribute\":\"LedgerAccountNumber\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

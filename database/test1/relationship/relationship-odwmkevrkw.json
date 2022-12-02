@@ -1,0 +1,26 @@
+{
+	"name": "relationship-odwmkevrkw",
+	"properties": {
+		"Name": "relationship-odwmkevrkw",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "NotesToFinancialStatements",
+		"ToTableName": "FinancialStatementLineNoteCrossReference",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "FinancialStatementNoteId",
+				"ToColumnName": "FinancialStatementNoteId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"NotesToFinancialStatements.cdm.json/NotesToFinancialStatements\",\"toEntity\":\"FinancialStatementLineNoteCrossReference.cdm.json/FinancialStatementLineNoteCrossReference\",\"joinPairs\":[{\"fromAttribute\":\"FinancialStatementNoteId\",\"toAttribute\":\"FinancialStatementNoteId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

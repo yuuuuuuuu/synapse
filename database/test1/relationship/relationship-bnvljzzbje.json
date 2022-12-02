@@ -1,0 +1,26 @@
+{
+	"name": "relationship-bnvljzzbje",
+	"properties": {
+		"Name": "relationship-bnvljzzbje",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "LineOfCredit",
+		"ToTableName": "LineOfCreditDraw",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "LineOfCreditPeriodStartDate",
+				"ToColumnName": "LineOfCreditPeriodStartDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"LineOfCredit.cdm.json/LineOfCredit\",\"toEntity\":\"LineOfCreditDraw.cdm.json/LineOfCreditDraw\",\"joinPairs\":[{\"fromAttribute\":\"LineOfCreditPeriodStartDate\",\"toAttribute\":\"LineOfCreditPeriodStartDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

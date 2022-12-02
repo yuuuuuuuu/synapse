@@ -1,0 +1,26 @@
+{
+	"name": "relationship-wxagyrwntf",
+	"properties": {
+		"Name": "relationship-wxagyrwntf",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "FinancialStatementColumn",
+		"ToTableName": "FinancialStatementValue",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "PeriodEndDate",
+				"ToColumnName": "PeriodEndDate"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"FinancialStatementColumn.cdm.json/FinancialStatementColumn\",\"toEntity\":\"FinancialStatementValue.cdm.json/FinancialStatementValue\",\"joinPairs\":[{\"fromAttribute\":\"PeriodEndDate\",\"toAttribute\":\"PeriodEndDate\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}

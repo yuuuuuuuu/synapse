@@ -1,0 +1,26 @@
+{
+	"name": "relationship-krmaiacmdp",
+	"properties": {
+		"Name": "relationship-krmaiacmdp",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "test1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "AccountingProcedureType",
+		"ToTableName": "JournalTransaction",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "AccountingProcedureTypeId",
+				"ToColumnName": "AccountingProcedureTypeId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"AccountingProcedureType.cdm.json/AccountingProcedureType\",\"toEntity\":\"JournalTransaction.cdm.json/JournalTransaction\",\"joinPairs\":[{\"fromAttribute\":\"AccountingProcedureTypeId\",\"toAttribute\":\"AccountingProcedureTypeId\"}]}}"
+		}
+	},
+	"type": "RELATIONSHIP"
+}
